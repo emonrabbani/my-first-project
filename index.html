@@ -7,7 +7,168 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>This is my first website</h1>
-    <p> My name is Md.Emon Rabbani</p>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Design Table using html & css</title>
+    </head>
+    <style>
+    caption{
+        color:white;
+        background-color: brown;
+        padding: 5px;
+       
+    }
+    table{
+        border: 2px solid black;
+        border-collapse: collapse;
+        width: 100%;
+    }
+    tr, th, td{
+        border: 2px solid black; 
+        text-align: center;
+    }
+    tr{
+        height: 50px;
+    }
+    
+    tr:nth-child(even){
+        background-color: grey;
+    }
+    tr:nth-child(odd){
+        background-color: yellow;
+    }
+    
+    th{
+        background-color: green;
+        color: white;
+    }
+    tr:hover{
+        background-color: tomato;
+    }
+    p{
+        background-color: black;
+        color: white;
+        width: 250px;
+        height: 200px;
+        overflow: scroll;
+        padding: 10px;
+    
+    }
+    .tooltip{
+        position: relative;
+        text-decoration: none;
+        color: brown;
+    
+    
+    }
+    .tooltip-text{
+        visibility: hidden;
+        background-color: blue;
+        width: 180px;
+        height: auto;
+        padding: 5px;
+        color: white;
+        border: 2px double white;
+        border-radius: 10px;
+        position: absolute;
+        top: 20px;
+        left: 20px;
+    
+    
+    }
+    .tooltip:hover .tooltip-text{
+        visibility: visible;
+    }
+    
+    </style>
+    <body>
+        <table>
+            <caption><u>Student Information</u></caption>
+            <tr>
+                <th>id</th>
+                <th>Name</th>
+                <th>Bio</th>
+                <th>Phone</th>
+                <th>Email</th>
+            </tr>
+            <tr>
+                <td>101</td>
+                <td>Rafiul</td>
+                <td>Stet justo erat ipsum eos magna. Dolor accusam at ipsum clita sadipscing sit consetetur, elitr et stet sanctus amet gubergren.</td>
+                <td>01741382967</td>
+                <td>emonrabbani.cuv2018@gmail.com</td>
+            </tr>
+            <tr>
+                <td>102</td>
+                <td>Arian</td>
+                <td>Stet justo erat ipsum eos magna. Dolor accusam at ipsum clita sadipscing sit consetetur, elitr et stet sanctus amet gubergren.</td>
+                <td>01740000001</td>
+                <td>emonrabbani.cuv2018@gmail.com</td>
+            </tr>
+            <tr>
+                <td>103</td>
+                <td>Jillur</td>
+                <td>Stet justo erat ipsum eos magna. Dolor accusam at ipsum clita sadipscing sit consetetur, elitr et stet sanctus amet gubergren.</td>
+                <td>01741382967</td>
+                <td>emonrabbani.cuv2018@gmail.com</td>
+            </tr>
+            <tr>
+                <td>104</td>
+                <td>Mehrab</td>
+                <td>Stet justo erat ipsum eos magna. Dolor accusam at ipsum clita sadipscing sit consetetur, elitr et stet sanctus amet gubergren.</td>
+                <td>01741382967</td>
+                <td>emonrabbani.cuv2018@gmail.com</td>
+            </tr>
+            <tr>
+                <td>105</td>
+                <td>Sakhawat</td>
+                <td>Stet justo erat ipsum eos magna. Dolor accusam at ipsum clita sadipscing sit consetetur, elitr et stet sanctus amet gubergren.</td>
+                <td>01741382967</td>
+                <td>emonrabbani.cuv2018@gmail.com</td>
+            </tr>
+            <tr>
+                <td>106</td>
+                <td>Fatemi</td>
+                <td>Stet justo erat ipsum eos magna. Dolor accusam at ipsum clita sadipscing sit consetetur, elitr et stet sanctus amet gubergren.</td>
+                <td>01741382967</td>
+                <td>emonrabbani.cuv2018@gmail.com</td>
+            </tr>
+            <tr>
+                <td>107</td>
+                <td>Lamya</td>
+                <td>Stet justo erat ipsum eos magna. Dolor accusam at ipsum clita sadipscing sit consetetur, elitr et stet sanctus amet gubergren.</td>
+                <td>01741382967</td>
+                <td>emonrabbani.cuv2018@gmail.com</td>
+            </tr>
+            <tr>
+                <td>108</td>
+                <td>Mim</td>
+                <td>Stet justo erat ipsum eos magna. Dolor accusam at ipsum clita sadipscing sit consetetur, elitr et stet sanctus amet gubergren.</td>
+                <td>01741382967</td>
+                <td>emonrabbani.cuv2018@gmail.com</td>
+            </tr>
+            <tr>
+                <td>109</td>
+                <td>Emon</td>
+                <td>Stet justo erat ipsum eos magna. Dolor accusam at ipsum clita sadipscing sit consetetur, elitr et stet sanctus amet gubergren.</td>
+                <td>01741382967</td>
+                <td>emonrabbani.cuv2018@gmail.com</td>
+            </tr>
+            
+    
+        </table>
+    
+        <p>Aliquyam no takimata est vero lorem. Diam stet et diam elitr. Sit ea ut at gubergren sanctus elitr et clita gubergren. Sed voluptua accusam aliquyam sadipscing ipsum labore. Nonumy stet sea dolor amet sanctus erat duo sanctus, voluptua accusam dolore ut clita consetetur rebum amet voluptua ut, at nonumy sed amet dolores ut sed gubergren dolores at. Est tempor consetetur amet nonumy no, tempor eos rebum lorem invidunt, et diam labore voluptua justo diam invidunt, clita labore aliquyam invidunt clita elitr amet ipsum elitr accusam, aliquyam clita duo sadipscing sed ut sanctus diam. At erat amet rebum sed, consetetur dolore erat erat dolor labore dolor lorem sed et, diam ipsum nonumy ea amet tempor diam amet rebum. Sit eos amet erat dolor. Sadipscing dolores dolore ipsum sanctus et eirmod aliquyam, sed amet erat vero no magna ipsum, eos consetetur eirmod at eos. Et diam et dolor sed diam labore nonumy lorem consetetur. Diam amet sadipscing dolor at, est et stet dolores at duo sit elitr lorem, tempor et est nonumy invidunt eos lorem. Dolores kasd dolor clita magna kasd dolores diam aliquyam. Sanctus ea invidunt sed stet kasd. Aliquyam sit justo gubergren sit, consetetur invidunt gubergren labore eirmod, magna rebum.</p>
+        <a href="#" class="tooltip">
+            Facebook
+            <span class="tooltip-text">Facebook is a Social Media</span>
+        </a>
+        <br><br><br>
+    </body>
+    </html>
 </body>
 </html>
